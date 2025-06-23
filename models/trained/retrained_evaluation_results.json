@@ -1,0 +1,9 @@
+{
+  "final_accuracy": 1.0,
+  "final_precision": 1.0,
+  "final_recall": 1.0,
+  "final_f1": 1.0,
+  "training_time": "-0.00 seconds",
+  "model_path": "models/trained/retrained_deepfake_detector.pth",
+  "timestamp": "2025-06-20T18:34:27.782412"
+}

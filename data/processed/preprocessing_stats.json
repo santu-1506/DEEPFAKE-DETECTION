@@ -1,0 +1,14 @@
+{
+  "target_size": [
+    224,
+    224
+  ],
+  "processed_images": {
+    "real": 118,
+    "fake": 172
+  },
+  "failed_images": {
+    "real": 0,
+    "fake": 28
+  }
+}

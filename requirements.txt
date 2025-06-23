@@ -1,0 +1,14 @@
+torch==2.7.1
+torchvision==0.20.1
+torchaudio==2.7.1
+opencv-python==4.11.0.86
+numpy==2.2.2
+matplotlib==3.9.4
+scikit-learn==1.6.1
+seaborn==0.13.2
+fastapi==0.115.13
+uvicorn==0.34.0
+python-multipart==0.0.20
+Pillow==11.1.0
+pathlib
+json5 

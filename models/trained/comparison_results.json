@@ -1,0 +1,9 @@
+{
+  "original_accuracy": 0.0,
+  "retrained_accuracy": 0.0,
+  "improvement": 0,
+  "total_tests": 1,
+  "test_images": [
+    "data\\raw\\modern_ai\\ai_example_002.jpg"
+  ]
+}
