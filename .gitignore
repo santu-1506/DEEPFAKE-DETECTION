@@ -16,62 +16,20 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Virtual environments
+# Virtual Environment
 venv/
-ENV/
 env/
-.venv/
+ENV/
+env.bak/
+venv.bak/
 
-# PyTorch models (large files)
-*.pth
-*.pt
-*.pkl
-
-# Data files
-data/raw/
-data/datasets/
-*.jpg
-*.jpeg
-*.png
-*.mp4
-*.avi
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# VS Code
+# IDE
 .vscode/
-
-# IDEs
 .idea/
 *.swp
 *.swo
@@ -86,12 +44,48 @@ data/datasets/
 ehthumbs.db
 Thumbs.db
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (large files - can be uploaded separately if needed)
+# Uncomment if model files are too large for git
+# *.pth
+# *.pkl
+# *.h5
+
+# Data files (often too large for git)
+# Uncomment if you want to exclude data files
+# data/raw/
+# data/processed/
+
 # Logs
 *.log
-
-# Analytics database
-*.db
+logs/
 
 # Temporary files
 *.tmp
-*.temp 
+*.temp
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Analytics database
+analytics/analytics.db
